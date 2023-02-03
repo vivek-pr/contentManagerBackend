@@ -8,6 +8,7 @@ import (
 	"github.com/gin-gonic/gin"
 )
 
+
 func Signup(c *gin.Context) {
 	// Get user information from the request
 	var user model.User
